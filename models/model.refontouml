@@ -104,15 +104,15 @@
   </packagedElement>
   <packagedElement xsi:type="RefOntoUML:SubKind" xmi:id="_BsaesLqLEeePh-thrDLwxQ" name="Hire purchase" visibility="public">
     <generalization xmi:id="_Hay90LqLEeePh-thrDLwxQ" general="_vfKEELqKEeePh-thrDLwxQ" generalizationSet="_Kirz4NT6Eeek-smv1tNR0g"/>
-    <ownedAttribute xmi:id="_AqjPgNB4EeeWeIj0ifUApg" name="po&#x10d;et spl&#xe1;tek" type="_abHc4MXrEee6ErEZ8H12Ww">
+    <ownedAttribute xmi:id="_AqjPgNB4EeeWeIj0ifUApg" name="Count of instalments" type="_abHc4MXrEee6ErEZ8H12Ww">
       <upperValue xsi:type="RefOntoUML:LiteralUnlimitedNatural" xmi:id="_AqjPgtB4EeeWeIj0ifUApg" value="1"/>
       <lowerValue xsi:type="RefOntoUML:LiteralInteger" xmi:id="_AqjPgdB4EeeWeIj0ifUApg" value="1"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_Ris-QNQvEee_XKP0zOLCQg" name="m&#x11b;s&#xed;&#x10d;n&#xed; spl&#xe1;tka" type="_abHc4MXrEee6ErEZ8H12Ww">
+    <ownedAttribute xmi:id="_Ris-QNQvEee_XKP0zOLCQg" name="Month payment" type="_abHc4MXrEee6ErEZ8H12Ww">
       <upperValue xsi:type="RefOntoUML:LiteralUnlimitedNatural" xmi:id="_Ris-QtQvEee_XKP0zOLCQg" value="1"/>
       <lowerValue xsi:type="RefOntoUML:LiteralInteger" xmi:id="_Ris-QdQvEee_XKP0zOLCQg" value="1"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_i8WxENSEEee_XKP0zOLCQg" name="po&#x10d;et uhrazen&#xfd;ch spl&#xe1;tek" type="_abHc4MXrEee6ErEZ8H12Ww">
+    <ownedAttribute xmi:id="_i8WxENSEEee_XKP0zOLCQg" name="Count of paid instalments" type="_abHc4MXrEee6ErEZ8H12Ww">
       <upperValue xsi:type="RefOntoUML:LiteralUnlimitedNatural" xmi:id="_i8WxEtSEEee_XKP0zOLCQg" value="1"/>
       <lowerValue xsi:type="RefOntoUML:LiteralInteger" xmi:id="_i8WxEdSEEee_XKP0zOLCQg" value="1"/>
     </ownedAttribute>
@@ -368,19 +368,19 @@
     </ownedEnd>
   </packagedElement>
   <packagedElement xsi:type="RefOntoUML:Kind" xmi:id="_TYxGYNSPEee_XKP0zOLCQg" name="Paid instalment" visibility="public">
-    <ownedAttribute xmi:id="_VQrqQNSPEee_XKP0zOLCQg" name="datum a &#x10d;as" type="_Z_eQYNB4EeeWeIj0ifUApg">
+    <ownedAttribute xmi:id="_VQrqQNSPEee_XKP0zOLCQg" name="date and time" type="_Z_eQYNB4EeeWeIj0ifUApg">
       <upperValue xsi:type="RefOntoUML:LiteralUnlimitedNatural" xmi:id="_VQsRUdSPEee_XKP0zOLCQg" value="1"/>
       <lowerValue xsi:type="RefOntoUML:LiteralInteger" xmi:id="_VQsRUNSPEee_XKP0zOLCQg" value="1"/>
     </ownedAttribute>
   </packagedElement>
-  <packagedElement xsi:type="RefOntoUML:Association" xmi:id="_XqgBUNSPEee_XKP0zOLCQg" name="je p&#x159;i&#x159;azen&#xe1; ke spl&#xe1;tk&#xe1;m" visibility="public" memberEnd="_XqgBUdSPEee_XKP0zOLCQg _XqgBVNSPEee_XKP0zOLCQg">
+  <packagedElement xsi:type="RefOntoUML:Association" xmi:id="_XqgBUNSPEee_XKP0zOLCQg" name="is assigned to instalments" visibility="public" memberEnd="_XqgBUdSPEee_XKP0zOLCQg _XqgBVNSPEee_XKP0zOLCQg">
     <ownedEnd xmi:id="_XqgBUdSPEee_XKP0zOLCQg" name="jednotliv&#xe1;uhrazen&#xe1;spl&#xe1;tka" type="_TYxGYNSPEee_XKP0zOLCQg" association="_XqgBUNSPEee_XKP0zOLCQg">
-      <upperValue xsi:type="RefOntoUML:LiteralUnlimitedNatural" xmi:id="_feC1sdUJEeek-smv1tNR0g" value="-1"/>
-      <lowerValue xsi:type="RefOntoUML:LiteralInteger" xmi:id="_feC1sNUJEeek-smv1tNR0g"/>
+      <upperValue xsi:type="RefOntoUML:LiteralUnlimitedNatural" xmi:id="_KnLgoAFgEeivk7DOs7Inbw" value="-1"/>
+      <lowerValue xsi:type="RefOntoUML:LiteralInteger" xmi:id="_KnK5kAFgEeivk7DOs7Inbw"/>
     </ownedEnd>
     <ownedEnd xmi:id="_XqgBVNSPEee_XKP0zOLCQg" name="naspl&#xe1;tky" type="_BsaesLqLEeePh-thrDLwxQ" association="_XqgBUNSPEee_XKP0zOLCQg">
-      <upperValue xsi:type="RefOntoUML:LiteralUnlimitedNatural" xmi:id="_feC1s9UJEeek-smv1tNR0g" value="1"/>
-      <lowerValue xsi:type="RefOntoUML:LiteralInteger" xmi:id="_feC1stUJEeek-smv1tNR0g" value="1"/>
+      <upperValue xsi:type="RefOntoUML:LiteralUnlimitedNatural" xmi:id="_KnMHsQFgEeivk7DOs7Inbw" value="1"/>
+      <lowerValue xsi:type="RefOntoUML:LiteralInteger" xmi:id="_KnMHsAFgEeivk7DOs7Inbw" value="1"/>
     </ownedEnd>
   </packagedElement>
   <packagedElement xsi:type="RefOntoUML:GeneralizationSet" xmi:id="_Bi9f0NT6Eeek-smv1tNR0g" name="gs_typ_okam&#x17e;it&#xe9;_platby" isCovering="true" isDisjoint="true" generalization="_fQXEwLqLEeePh-thrDLwxQ _euLkwLqLEeePh-thrDLwxQ"/>
