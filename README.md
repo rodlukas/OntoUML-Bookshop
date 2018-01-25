@@ -1,6 +1,6 @@
 # OntoUML-Bookshop
 OntoUML of fictitious bookshop.
-Semestral project for subject *BI-KOM* (conceptual modelling) at FIT CTU.
+Semestral project for *BI-KOM* course (conceptual modelling) at FIT CTU.
 This model is available on community [OntoUML.org Repocribro](https://ontouml.org/repocribro/) portal.
 
 ## Authors
