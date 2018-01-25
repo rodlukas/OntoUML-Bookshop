@@ -19,7 +19,7 @@
   <packagedElement xsi:type="RefOntoUML:Role" xmi:id="_Bp1TgLqFEeePh-thrDLwxQ" name="Staff" visibility="public">
     <generalization xmi:id="_Djn_ULqIEeePh-thrDLwxQ" general="_-H26MLqHEeePh-thrDLwxQ" generalizationSet="_yvc4kMXtEeeZEsot_pv-8Q"/>
   </packagedElement>
-  <packagedElement xsi:type="RefOntoUML:Kind" xmi:id="_MV4xELqGEeePh-thrDLwxQ" name="Space" visibility="public"/>
+  <packagedElement xsi:type="RefOntoUML:Kind" xmi:id="_MV4xELqGEeePh-thrDLwxQ" name="Room" visibility="public"/>
   <packagedElement xsi:type="RefOntoUML:RoleMixin" xmi:id="_usqM8LqGEeePh-thrDLwxQ" name="Customer" visibility="public" isAbstract="true"/>
   <packagedElement xsi:type="RefOntoUML:Kind" xmi:id="_1u-ZILqGEeePh-thrDLwxQ" name="Juridical person" visibility="public">
     <ownedAttribute xmi:id="_MmH7kNB2EeeWeIj0ifUApg" name="I&#x10c;O" type="_abHc4MXrEee6ErEZ8H12Ww">
@@ -271,13 +271,13 @@
       <lowerValue xsi:type="RefOntoUML:LiteralInteger" xmi:id="_tEt6AtT5Eeek-smv1tNR0g" value="1"/>
     </ownedEnd>
   </packagedElement>
-  <packagedElement xsi:type="RefOntoUML:Phase" xmi:id="_fZ9K0NByEeeWeIj0ifUApg" name="Employee space" visibility="public">
+  <packagedElement xsi:type="RefOntoUML:Phase" xmi:id="_fZ9K0NByEeeWeIj0ifUApg" name="Employee room" visibility="public">
     <generalization xmi:id="_SvjMYLqHEeePh-thrDLwxQ" general="_MV4xELqGEeePh-thrDLwxQ" generalizationSet="_qo5IcNByEeeWeIj0ifUApg"/>
   </packagedElement>
-  <packagedElement xsi:type="RefOntoUML:Phase" xmi:id="_h6WD8NByEeeWeIj0ifUApg" name="Store space" visibility="public">
+  <packagedElement xsi:type="RefOntoUML:Phase" xmi:id="_h6WD8NByEeeWeIj0ifUApg" name="Store room" visibility="public">
     <generalization xmi:id="_HBbYYLqHEeePh-thrDLwxQ" general="_MV4xELqGEeePh-thrDLwxQ" generalizationSet="_qo5IcNByEeeWeIj0ifUApg"/>
   </packagedElement>
-  <packagedElement xsi:type="RefOntoUML:Phase" xmi:id="_i05AoNByEeeWeIj0ifUApg" name="Sale space" visibility="public">
+  <packagedElement xsi:type="RefOntoUML:Phase" xmi:id="_i05AoNByEeeWeIj0ifUApg" name="Sale room" visibility="public">
     <generalization xmi:id="_SYRU0LqHEeePh-thrDLwxQ" general="_MV4xELqGEeePh-thrDLwxQ" generalizationSet="_qo5IcNByEeeWeIj0ifUApg"/>
   </packagedElement>
   <packagedElement xsi:type="RefOntoUML:GeneralizationSet" xmi:id="_qo5IcNByEeeWeIj0ifUApg" name="gs_typ_prostoru" isCovering="true" isDisjoint="true" generalization="_HBbYYLqHEeePh-thrDLwxQ _SvjMYLqHEeePh-thrDLwxQ _SYRU0LqHEeePh-thrDLwxQ"/>
