@@ -94,7 +94,7 @@
     </ownedEnd>
   </packagedElement>
   <packagedElement xsi:type="RefOntoUML:Kind" xmi:id="_vfKEELqKEeePh-thrDLwxQ" name="Payment" visibility="public">
-    <ownedAttribute xmi:id="_K5RzMNQvEee_XKP0zOLCQg" name="cost" type="_abHc4MXrEee6ErEZ8H12Ww">
+    <ownedAttribute xmi:id="_K5RzMNQvEee_XKP0zOLCQg" name="amount" type="_abHc4MXrEee6ErEZ8H12Ww">
       <upperValue xsi:type="RefOntoUML:LiteralUnlimitedNatural" xmi:id="_K5RzMtQvEee_XKP0zOLCQg" value="1"/>
       <lowerValue xsi:type="RefOntoUML:LiteralInteger" xmi:id="_K5RzMdQvEee_XKP0zOLCQg" value="1"/>
     </ownedAttribute>
@@ -133,14 +133,14 @@
   <packagedElement xsi:type="RefOntoUML:SubKind" xmi:id="_b7GZILqLEeePh-thrDLwxQ" name="Card" visibility="public">
     <generalization xmi:id="_euLkwLqLEeePh-thrDLwxQ" general="_BLuMcLqLEeePh-thrDLwxQ" generalizationSet="_Bi9f0NT6Eeek-smv1tNR0g"/>
   </packagedElement>
-  <packagedElement xsi:type="RefOntoUML:Association" xmi:id="_75cvALrhEeevmsltIA51Bg" name="Je nad&#x159;&#xed;zen&#xfd;m" visibility="public" memberEnd="_75cvAbrhEeevmsltIA51Bg _75cvBLrhEeevmsltIA51Bg">
+  <packagedElement xsi:type="RefOntoUML:Association" xmi:id="_75cvALrhEeevmsltIA51Bg" name="is superior of" visibility="public" memberEnd="_75cvAbrhEeevmsltIA51Bg _75cvBLrhEeevmsltIA51Bg">
     <ownedEnd xmi:id="_75cvAbrhEeevmsltIA51Bg" name="vedouc&#xed;" type="_BWNz8LqFEeePh-thrDLwxQ" association="_75cvALrhEeevmsltIA51Bg">
-      <upperValue xsi:type="RefOntoUML:LiteralUnlimitedNatural" xmi:id="_qe1lQdTrEeek-smv1tNR0g" value="1"/>
-      <lowerValue xsi:type="RefOntoUML:LiteralInteger" xmi:id="_qe1lQNTrEeek-smv1tNR0g" value="1"/>
+      <upperValue xsi:type="RefOntoUML:LiteralUnlimitedNatural" xmi:id="_UaKTcQGpEeivk7DOs7Inbw" value="1"/>
+      <lowerValue xsi:type="RefOntoUML:LiteralInteger" xmi:id="_UaKTcAGpEeivk7DOs7Inbw" value="1"/>
     </ownedEnd>
     <ownedEnd xmi:id="_75cvBLrhEeevmsltIA51Bg" name="obsluha" type="_Bp1TgLqFEeePh-thrDLwxQ" association="_75cvALrhEeevmsltIA51Bg">
-      <upperValue xsi:type="RefOntoUML:LiteralUnlimitedNatural" xmi:id="_qe4BgdTrEeek-smv1tNR0g" value="-1"/>
-      <lowerValue xsi:type="RefOntoUML:LiteralInteger" xmi:id="_qe4BgNTrEeek-smv1tNR0g" value="1"/>
+      <upperValue xsi:type="RefOntoUML:LiteralUnlimitedNatural" xmi:id="_UaKTcwGpEeivk7DOs7Inbw" value="-1"/>
+      <lowerValue xsi:type="RefOntoUML:LiteralInteger" xmi:id="_UaKTcgGpEeivk7DOs7Inbw" value="1"/>
     </ownedEnd>
   </packagedElement>
   <packagedElement xsi:type="RefOntoUML:SubKind" xmi:id="_JzvfoLriEeevmsltIA51Bg" name="Furniture" visibility="public">
@@ -284,12 +284,12 @@
   <packagedElement xsi:type="RefOntoUML:DataType" xmi:id="_Z_eQYNB4EeeWeIj0ifUApg" name="Timestamp"/>
   <packagedElement xsi:type="RefOntoUML:MaterialAssociation" xmi:id="_nwYXUNB_EeeWeIj0ifUApg" name="/bought a book" visibility="public" memberEnd="_nwY-YNB_EeeWeIj0ifUApg _nwY-Y9B_EeeWeIj0ifUApg" isDerived="true" navigableOwnedEnd="_nwY-YNB_EeeWeIj0ifUApg _nwY-Y9B_EeeWeIj0ifUApg">
     <ownedEnd xmi:id="_nwY-YNB_EeeWeIj0ifUApg" name="z&#xe1;kazn&#xed;k" type="_usqM8LqGEeePh-thrDLwxQ" association="_nwYXUNB_EeeWeIj0ifUApg">
-      <upperValue xsi:type="RefOntoUML:LiteralUnlimitedNatural" xmi:id="_MuXMYQFcEeivk7DOs7Inbw" value="1"/>
-      <lowerValue xsi:type="RefOntoUML:LiteralInteger" xmi:id="_MuXMYAFcEeivk7DOs7Inbw" value="1"/>
+      <upperValue xsi:type="RefOntoUML:LiteralUnlimitedNatural" xmi:id="_aKxAIQGpEeivk7DOs7Inbw" value="1"/>
+      <lowerValue xsi:type="RefOntoUML:LiteralInteger" xmi:id="_aKxAIAGpEeivk7DOs7Inbw" value="1"/>
     </ownedEnd>
     <ownedEnd xmi:id="_nwY-Y9B_EeeWeIj0ifUApg" name="kniha(v&#xfd;tisk)" type="_DLXtYNDvEeeCMq5HiZQPNg" association="_nwYXUNB_EeeWeIj0ifUApg">
-      <upperValue xsi:type="RefOntoUML:LiteralUnlimitedNatural" xmi:id="_MuYagQFcEeivk7DOs7Inbw" value="-1"/>
-      <lowerValue xsi:type="RefOntoUML:LiteralInteger" xmi:id="_MuYagAFcEeivk7DOs7Inbw" value="1"/>
+      <upperValue xsi:type="RefOntoUML:LiteralUnlimitedNatural" xmi:id="_aKxAIwGpEeivk7DOs7Inbw" value="-1"/>
+      <lowerValue xsi:type="RefOntoUML:LiteralInteger" xmi:id="_aKxAIgGpEeivk7DOs7Inbw" value="1"/>
     </ownedEnd>
   </packagedElement>
   <packagedElement xsi:type="RefOntoUML:Relator" xmi:id="_0E-8gNB_EeeWeIj0ifUApg" name="Purchase" visibility="public"/>
